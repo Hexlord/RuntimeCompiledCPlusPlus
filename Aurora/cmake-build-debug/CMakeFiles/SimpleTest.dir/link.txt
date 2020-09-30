@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SimpleTest.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\SimpleTest.dir/objects.a @CMakeFiles\SimpleTest.dir\objects1.rsp
+F:\Source\llvm-project\llvm\cmake-build-release\bin\clang++.exe -DCOMPILE_PATH="\"$(PWD)\"" -g  -mwindows -Wl,--whole-archive CMakeFiles\SimpleTest.dir/objects.a -Wl,--no-whole-archive  -o SimpleTest.exe -Wl,--out-implib,libSimpleTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SimpleTest.dir\linklibs.rsp

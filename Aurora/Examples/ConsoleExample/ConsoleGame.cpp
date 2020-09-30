@@ -156,7 +156,7 @@ bool ConsoleGame::MainLoop()
 	if( !m_pRuntimeObjectSystem->GetIsCompiling() )
 	{
         static int numUpdates = 0;
-		std::cout << "\nMain Loop - press q to quit. Updates every second. Update: " << numUpdates++ << "\n";
+		std::cout << "\nMain Loop! - press q to quit. Updates every second. Update: " << numUpdates++ << "\n";
 		if( _kbhit() )
 		{
 			int ret = _getche();

@@ -16,6 +16,12 @@ else()
 	set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 endif()
 
+if(MINGW)
+add_definitions(
+	-DMINGW
+	-DUNICODE
+	-D_UNICODE)
+endif()
 include(cmake/ProjectFiles.cmake)
 
 #
@@ -67,6 +73,9 @@ if(BUILD_EXAMPLES)
 		#
 	
 		add_library(Systems ${BUILD_TYPE} ${Systems_SRCS})
+		if(MINGW)
+        	target_link_libraries(Systems Renderer)
+    	endif()
 		
 		#
 		# Freetype WIN32
@@ -75,7 +84,13 @@ if(BUILD_EXAMPLES)
 		if(WIN32)
 			set(FREETYPE_INCLUDE_DIR_freetype2 ${CMAKE_SOURCE_DIR}/External/support/freetype/include/freetype)
 			set(FREETYPE_INCLUDE_DIR_ft2build ${CMAKE_SOURCE_DIR}/External/support/freetype/include)
-			if(${CMAKE_CL_64})
+			if(MINGW)
+				if("${CMAKE_SIZEOF_VOID_P}" EQUAL "8")
+					set(FREETYPE_LIBRARY ${CMAKE_SOURCE_DIR}/External/support/lib/MinGW/libfreetypex64.a)
+				else()
+					set(FREETYPE_LIBRARY ${CMAKE_SOURCE_DIR}/External/support/lib/MinGW/libfreetype.a)
+				endif()
+			elseif(${CMAKE_CL_64})
 				set(FREETYPE_LIBRARY ${CMAKE_SOURCE_DIR}/External/support/lib/freetype2410MTx64.lib)
 			else()
 				set(FREETYPE_LIBRARY ${CMAKE_SOURCE_DIR}/External/support/lib/freetype2410MT.lib)
@@ -117,7 +132,7 @@ if(BUILD_EXAMPLES)
 		# assimp
 		#
 	
-		if(WIN32)
+		if(WIN32 AND NOT MINGW)
 			add_library( assimp STATIC IMPORTED )
 			set(ASSIMP_LIBRARIES assimp)
 			if(${CMAKE_CL_64})

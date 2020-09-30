@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libRuntimeObjectSystem.a  CMakeFiles/RuntimeObjectSystem.dir/RuntimeObjectSystem/ObjectInterfacePerModuleSource.cpp.obj CMakeFiles/RuntimeObjectSystem.dir/RuntimeObjectSystem/RuntimeObjectSystem.cpp.obj CMakeFiles/RuntimeObjectSystem.dir/RuntimeObjectSystem/RuntimeObjectSystem_PlatformPosix.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libRuntimeObjectSystem.a

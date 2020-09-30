@@ -1,0 +1,1 @@
+-IF:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include -IF:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/../lib -IF:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/../lib/win32 

@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=F:/Source/llvm-project/llvm/cmake-build-release/bin/clang.exe -DCMAKE_CXX_COMPILER=F:/Source/llvm-project/llvm/cmake-build-release/bin/clang++.exe -G "CodeBlocks - MinGW Makefiles" F:\Source\RuntimeCompiledCPlusPlus\Aurora
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug

@@ -19,12 +19,12 @@
 
 // the templates used for tracking need not be optimized
 // so we create macros to handle this
-#ifdef _WIN32
-	#define RCCPP_OPTMIZE_OFF __pragma( optimize( "", off ) )
-	#define RCCPP_OPTMIZE_ON  __pragma( optimize( "", on ) )
+#if defined(_WIN32) && !defined(MINGW)
+#define RCCPP_OPTMIZE_OFF __pragma( optimize( "", off ) )
+#define RCCPP_OPTMIZE_ON  __pragma( optimize( "", on ) )
 #else
-	#define RCCPP_OPTMIZE_OFF
-	#define RCCPP_OPTMIZE_ON
+#define RCCPP_OPTMIZE_OFF
+#define RCCPP_OPTMIZE_ON
 #endif
 
 

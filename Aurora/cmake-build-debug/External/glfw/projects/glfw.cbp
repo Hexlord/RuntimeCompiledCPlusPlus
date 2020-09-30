@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glfw"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\External\;CMake Files\External\glfw\;CMake Files\External\glfw\projects\;CMake Files\External\libRocket\;CMake Files\External\libRocket\Build\;CMake Files\External\libRocket\Build\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libglfw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-D_GLFW_NO_DLOAD_GDI32"/>
+					<Add option="-D_GLFW_NO_DLOAD_WINMM"/>
+					<Add option="-D_MBCS"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/../lib"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/../lib/win32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libglfw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-D_GLFW_NO_DLOAD_GDI32"/>
+					<Add option="-D_GLFW_NO_DLOAD_WINMM"/>
+					<Add option="-D_MBCS"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/../lib"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/../lib/win32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/enable.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/fullscreen.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/glext.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/image.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/stream.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/tga.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_dllmain.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_enable.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_fullscreen.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_glext.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake/ProjectFiles.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\External\glfw\projects\"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\External\libRocket\Build\"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Build/cmake/FileList.cmake">
+			<Option virtualFolder="CMake Files\External\libRocket\Build\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

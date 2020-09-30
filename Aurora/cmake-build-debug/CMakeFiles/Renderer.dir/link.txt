@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libRenderer.a  CMakeFiles/Renderer.dir/Renderer/AURenMesh.cpp.obj CMakeFiles/Renderer.dir/Renderer/AURenderContext.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libRenderer.a

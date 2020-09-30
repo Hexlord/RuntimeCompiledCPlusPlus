@@ -1,0 +1,2179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RuntimeCompiledCPlusPlus"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\External\;CMake Files\External\glfw\;CMake Files\External\glfw\projects\;CMake Files\External\libRocket\;CMake Files\External\libRocket\Build\;CMake Files\External\libRocket\Build\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RuntimeCompiler">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRuntimeCompiler.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 RuntimeCompiler"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RuntimeCompiler/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRuntimeCompiler.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 RuntimeCompiler/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Renderer">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRenderer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 Renderer"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Renderer/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRenderer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 Renderer/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RuntimeObjectSystem">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRuntimeObjectSystem.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 RuntimeObjectSystem"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RuntimeObjectSystem/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRuntimeObjectSystem.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 RuntimeObjectSystem/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ConsoleExample">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/ConsoleExample.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConsoleExample"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ConsoleExample/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/ConsoleExample.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConsoleExample/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Systems">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libSystems.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 Systems"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Systems/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libSystems.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 Systems/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpleTest">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/SimpleTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpleTest"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpleTest/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/SimpleTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/assimp/include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpleTest/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libglfw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-D_GLFW_NO_DLOAD_GDI32"/>
+					<Add option="-D_GLFW_NO_DLOAD_WINMM"/>
+					<Add option="-D_MBCS"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/../lib"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/../lib/win32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libglfw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-D_GLFW_NO_DLOAD_GDI32"/>
+					<Add option="-D_GLFW_NO_DLOAD_WINMM"/>
+					<Add option="-D_MBCS"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/../lib"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/../lib/win32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/glfw/projects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RocketDebugger">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRocketDebugger_d.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include/freetype"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Build/../Include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 RocketDebugger"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RocketDebugger/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRocketDebugger_d.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include/freetype"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Build/../Include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 RocketDebugger/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RocketCore">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRocketCore_d.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include/freetype"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Build/../Include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 RocketCore"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RocketCore/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRocketCore_d.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include/freetype"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Build/../Include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 RocketCore/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RocketControls">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRocketControls_d.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include/freetype"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Build/../Include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 RocketControls"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RocketControls/fast">
+				<Option output="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/libRocketControls_d.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DMINGW"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/support/freetype/include/freetype"/>
+					<Add directory="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Build/../Include"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:\msys64\mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="F:\Source\llvm-project\llvm\cmake-build-release\lib\clang\12.0.0\include"/>
+					<Add directory="C:\msys64\mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:\msys64\mingw64\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 RocketControls/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake-build-debug/External/libRocket/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/ConsoleExample/ConsoleExample.cpp">
+			<Option target="ConsoleExample"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/ConsoleExample/ConsoleGame.cpp">
+			<Option target="ConsoleExample"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/ConsoleExample/ConsoleGame.h">
+			<Option target="ConsoleExample"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/ConsoleExample/RuntimeObject01.cpp">
+			<Option target="ConsoleExample"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/ConsoleExample/StdioLogSystem.cpp">
+			<Option target="ConsoleExample"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/ConsoleExample/StdioLogSystem.h">
+			<Option target="ConsoleExample"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/BehaviorTreeManager.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/BehaviorTree_Infected.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/BehaviorTree_RBC.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/BehaviorTree_Virus.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/BehaviorTree_WBC.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_Infected_Approach.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_Infected_Combat.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_Infected_HuntRBC.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_Infected_HuntWBC.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_Infected_Idle.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_RBC_Approach.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_RBC_Combat.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_RBC_Evade.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_RBC_Idle.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_Virus_Approach.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_Virus_Combat.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_Virus_HuntRBC.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_Virus_HuntWBC.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_Virus_Idle.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_WBC_Approach.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_WBC_Combat.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_WBC_Idle.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Behavior_WBC_Patrol.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/BlackboardManager.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/CameraControl.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/CompilerLogger.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/CompilerLogger.h">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/CompilingNotification.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Console.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Console.h">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Environment.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Environment.h">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/FPSCounter.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Game.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Game.h">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/GameManager.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/GameObject.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/InputManager.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/LightingControl.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/Main.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/MainMenu.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/MainObject.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/PerceptionManager.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/PhysicsManager.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Examples/SimpleTest/SplashScreen.cpp">
+			<Option target="SimpleTest"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/enable.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/fullscreen.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/glext.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/image.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/stream.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/tga.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_dllmain.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_enable.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_fullscreen.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_glext.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/win32/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/lib/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/Clipboard.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/Controls.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/DataFormatter.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/DataQuery.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/DataSource.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/DataSourceListener.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementDataGrid.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementDataGridCell.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementDataGridExpandButton.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementDataGridRow.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementForm.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementFormControl.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementFormControlDataSelect.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementFormControlInput.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementFormControlSelect.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementFormControlTextArea.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/ElementTabSet.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/Header.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Controls/SelectOption.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/BaseXMLParser.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Box.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Colour.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Context.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ContextInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ConvolutionFilter.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Core.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Debug.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Decorator.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/DecoratorInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Dictionary.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Element.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ElementDocument.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ElementInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ElementInstancerGeneric.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ElementReference.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ElementScroll.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ElementText.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ElementUtilities.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Event.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/EventInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/EventListener.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/EventListenerInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Factory.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/FileInterface.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Font.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/FontDatabase.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/FontEffect.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/FontEffectInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/FontGlyph.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Geometry.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/GeometryUtilities.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Header.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Input.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Log.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Math.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/MathTypes.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Platform.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Plugin.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Property.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/PropertyDefinition.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/PropertyDictionary.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/PropertyParser.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/PropertySpecification.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ReferenceCountable.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/RenderInterface.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/ScriptInterface.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Stream.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/StreamMemory.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/String.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/StringBase.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/StringUtilities.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/StyleSheet.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/StyleSheetKeywords.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/StyleSheetSpecification.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/SystemInterface.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Texture.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/TypeConverter.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Types.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/URL.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Variant.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Vector2.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/Vertex.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/WString.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/XMLNodeHandler.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Core/XMLParser.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Debugger.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Debugger/Debugger.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Include/Rocket/Debugger/Header.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/Clipboard.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/Controls.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/DataFormatter.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/DataQuery.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/DataSource.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/DataSourceListener.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementDataGrid.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementDataGridCell.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementDataGridExpandButton.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementDataGridRow.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementForm.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementFormControl.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementFormControlDataSelect.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementFormControlInput.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementFormControlSelect.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementFormControlTextArea.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementTabSet.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementTextSelection.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/ElementTextSelection.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputType.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputType.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeButton.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeButton.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeCheckbox.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeCheckbox.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeRadio.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeRadio.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeRange.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeRange.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeSubmit.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeSubmit.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeText.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/InputTypeText.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/SelectOption.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetDropDown.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetDropDown.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetSlider.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetSlider.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetSliderInput.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetSliderInput.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetTextInput.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetTextInput.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetTextInputMultiLine.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetTextInputMultiLine.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetTextInputSingleLine.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetTextInputSingleLine.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetTextInputSingleLinePassword.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/WidgetTextInputSingleLinePassword.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/XMLNodeHandlerDataGrid.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/XMLNodeHandlerDataGrid.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/XMLNodeHandlerTabSet.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/XMLNodeHandlerTabSet.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/XMLNodeHandlerTextArea.cpp">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Controls/XMLNodeHandlerTextArea.h">
+			<Option target="RocketControls"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/BaseXMLParser.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Box.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Clock.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Clock.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Context.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ContextInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ContextInstancerDefault.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ContextInstancerDefault.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ConvolutionFilter.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Core.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DebugFont.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Decorator.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorNone.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorNone.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorNoneInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorNoneInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiled.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiled.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledBox.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledBox.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledBoxInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledBoxInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledHorizontal.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledHorizontal.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledHorizontalInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledHorizontalInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledImage.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledImage.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledImageInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledImageInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledVertical.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledVertical.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledVerticalInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DecoratorTiledVerticalInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Dictionary.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DocumentHeader.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/DocumentHeader.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Element.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementBackground.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementBackground.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementBorder.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementBorder.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementDecoration.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementDecoration.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementDefinition.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementDefinition.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementDocument.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementHandle.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementHandle.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementImage.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementImage.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementReference.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementScroll.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementStyle.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementStyle.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementText.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementTextDefault.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementTextDefault.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ElementUtilities.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Event.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/EventDispatcher.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/EventDispatcher.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/EventInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/EventInstancerDefault.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/EventInstancerDefault.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/EventIterators.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/EventListenerInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Factory.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FileInterface.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FileInterfaceDefault.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FileInterfaceDefault.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontDatabase.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffect.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectNone.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectNone.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectNoneInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectNoneInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectOutline.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectOutline.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectOutlineInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectOutlineInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectShadow.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectShadow.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectShadowInstancer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontEffectShadowInstancer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontFace.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontFace.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontFaceHandle.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontFaceHandle.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontFaceLayer.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontFaceLayer.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontFamily.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/FontFamily.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Geometry.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/GeometryDatabase.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/GeometryDatabase.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/GeometryUtilities.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutBlockBox.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutBlockBox.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutBlockBoxSpace.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutBlockBoxSpace.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutEngine.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutEngine.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutInlineBox.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutInlineBox.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutInlineBoxText.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutInlineBoxText.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutLineBox.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/LayoutLineBox.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Log.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Math.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Plugin.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PluginRegistry.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PluginRegistry.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Pool.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Property.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyDefinition.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyDictionary.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyParserColour.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyParserColour.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyParserKeyword.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyParserKeyword.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyParserNumber.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyParserNumber.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyParserString.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyParserString.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertyShorthandDefinition.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/PropertySpecification.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/ReferenceCountable.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/RenderInterface.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Stream.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StreamFile.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StreamFile.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StreamMemory.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/String.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StringCache.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StringCache.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StringUtilities.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheet.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetFactory.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetFactory.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNode.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNode.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelector.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelector.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorEmpty.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorEmpty.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorFirstChild.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorFirstChild.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorFirstOfType.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorFirstOfType.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorLastChild.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorLastChild.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorLastOfType.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorLastOfType.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorNthChild.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorNthChild.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorNthLastChild.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorNthLastChild.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorNthLastOfType.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorNthLastOfType.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorNthOfType.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorNthOfType.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorOnlyChild.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorOnlyChild.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorOnlyOfType.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetNodeSelectorOnlyOfType.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetParser.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetParser.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/StyleSheetSpecification.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/SystemInterface.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Template.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Template.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TemplateCache.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TemplateCache.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Texture.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureDatabase.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureDatabase.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureLayout.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureLayout.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureLayoutRectangle.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureLayoutRectangle.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureLayoutRow.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureLayoutRow.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureLayoutTexture.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureLayoutTexture.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureResource.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/TextureResource.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/URL.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/UnicodeRange.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/UnicodeRange.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Variant.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/Vector2.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/WString.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/WidgetSlider.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/WidgetSlider.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/WidgetSliderScroll.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/WidgetSliderScroll.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLNodeHandler.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLNodeHandlerBody.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLNodeHandlerBody.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLNodeHandlerDefault.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLNodeHandlerDefault.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLNodeHandlerHead.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLNodeHandlerHead.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLNodeHandlerTemplate.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLNodeHandlerTemplate.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLParseTools.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLParseTools.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/XMLParser.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/precompiled.cpp">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Core/precompiled.h">
+			<Option target="RocketCore"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/BeaconSource.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/CommonSource.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/Debugger.cpp">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/ElementContextHook.cpp">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/ElementContextHook.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/ElementInfo.cpp">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/ElementInfo.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/ElementLog.cpp">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/ElementLog.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/FontSource.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/Geometry.cpp">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/Geometry.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/InfoSource.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/LogSource.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/MenuSource.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/Plugin.cpp">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/Plugin.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/SystemInterface.cpp">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Source/Debugger/SystemInterface.h">
+			<Option target="RocketDebugger"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Renderer/AURenMesh.cpp">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Renderer/AURenMesh.h">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Renderer/AURenderContext.cpp">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Renderer/AURenderContext.h">
+			<Option target="Renderer"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/BuildTool.cpp">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/BuildTool.h">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/Compiler_PlatformMinGW.cpp">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/Compiler_PlatformWindows.cpp">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/FileChangeNotifier.cpp">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/FileChangeNotifier.h">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/SimpleFileWatcher/FileWatcher.cpp">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/SimpleFileWatcher/FileWatcher.h">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/SimpleFileWatcher/FileWatcherWin32.cpp">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeCompiler/SimpleFileWatcher/FileWatcherWin32.h">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/ObjectFactorySystem/ObjectFactorySystem.cpp">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/ObjectFactorySystem/ObjectFactorySystem.h">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/ObjectInterfacePerModuleSource.cpp">
+			<Option target="RuntimeObjectSystem"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/RuntimeObjectSystem.cpp">
+			<Option target="RuntimeObjectSystem"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/RuntimeObjectSystem.h">
+			<Option target="RuntimeObjectSystem"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/RuntimeObjectSystem_PlatformPosix.cpp">
+			<Option target="RuntimeObjectSystem"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/SimpleSerializer/SimpleSerializer.cpp">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/RuntimeObjectSystem/SimpleSerializer/SimpleSerializer.h">
+			<Option target="RuntimeCompiler"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/AssetSystem/AssetSystem.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/AssetSystem/AssetSystem.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/EntitySystem/EntitySystem.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/EntitySystem/EntitySystem.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/GUISystem/GUIDocument.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/GUISystem/GUIDocument.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/GUISystem/GUIElement.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/GUISystem/GUIElement.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/GUISystem/GUISystem.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/GUISystem/GUISystem.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/GUISystem/ReferenceCountable.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/GUISystem/ReferenceCountable.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/LogSystem/FileLogSystem/FileLogSystem.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/LogSystem/FileLogSystem/FileLogSystem.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/LogSystem/MultiLogSystem/MultiLogSystem.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/LogSystem/MultiLogSystem/MultiLogSystem.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/LogSystem/RocketLogSystem/RocketLogSystem.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/LogSystem/RocketLogSystem/RocketLogSystem.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/LogSystem/ThreadsafeLogSystem/ThreadsafeLogSystem_PlatformWindows.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/Input.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/Input.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/InputGLFW.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/InputGLFW.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/RocketLibSystem.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/RocketLibSystem.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/RocketLibSystemFileInterface.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/RocketLibSystemFileInterface.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/RocketLibSystemGLFW.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/RocketLibSystemRenderInterfaceOpenGL.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/RocketLibSystemRenderInterfaceOpenGL.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/RocketLibSystemSystemInterface.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/RocketLibSystem/RocketLibSystemSystemInterface.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/Systems.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/Systems.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/TimeSystem/TimeSystem.cpp">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/Systems/TimeSystem/TimeSystem.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/cmake/ProjectFiles.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/glfw/projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\External\glfw\projects\"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\External\libRocket\Build\"/>
+		</Unit>
+		<Unit filename="F:/Source/RuntimeCompiledCPlusPlus/Aurora/External/libRocket/Build/cmake/FileList.cmake">
+			<Option virtualFolder="CMake Files\External\libRocket\Build\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
